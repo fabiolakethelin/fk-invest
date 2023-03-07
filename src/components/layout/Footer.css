@@ -1,0 +1,43 @@
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    background: rgba(255, 214, 148, 10%);;
+    padding: 5rem 1rem;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+}
+
+.footer-container h1 {
+    font-size: 2.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.menu .bar {
+    width: 30px;
+    border-bottom: 4px solid #ffbb33;
+    margin: 1rem 0;
+}
+
+.menu a {
+    font-size: 1rem;
+}
+
+.menu svg {
+    color: #303030;
+    margin-right: 4px;
+}
+
+@media screen and (max-width: 940px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-container h1 {
+        display: none;
+    }
+}

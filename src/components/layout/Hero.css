@@ -1,0 +1,42 @@
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem auto;
+}
+
+.hero-container .left {
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero-container h1 {
+    padding: 1rem 0;
+}
+
+.hero-container .input-container{
+    padding: 1rem 0;
+}
+
+.hero-container .right {
+    padding: 1rem;
+}
+
+.hero-container .img-container {
+    width: 100%;
+    display: flex;
+}
+
+.hero-container img{
+    max-width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 930px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+        margin: 1rem 0;
+    }
+}
