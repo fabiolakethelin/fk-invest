@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fk-invest/static/css/main.71c4214d.css",
+    "main.js": "/fk-invest/static/js/main.699c461f.js",
+    "static/media/trade.png": "/fk-invest/static/media/trade.a2c09083fbde76e9cac2.png",
+    "static/media/hero-img.png": "/fk-invest/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
+    "index.html": "/fk-invest/index.html",
+    "main.71c4214d.css.map": "/fk-invest/static/css/main.71c4214d.css.map",
+    "main.699c461f.js.map": "/fk-invest/static/js/main.699c461f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71c4214d.css",
+    "static/js/main.699c461f.js"
+  ]
+}
