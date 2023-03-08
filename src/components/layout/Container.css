@@ -1,8 +1,7 @@
 /* PRECISA REVER NO COSTS P/ COMPLEMENTAR */
 
 .container {
-    width: 100vw;
-    max-width: 1240px;
+    width: 96vw;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;

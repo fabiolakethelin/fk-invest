@@ -2,7 +2,6 @@ import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import NavBar from "./components/layout/NavBar";
 import Container from "./components/layout/Container";
-import Hero from "./components/layout/Hero";
 import Home from "./components/pages/Home"
 import Featured from "./components/pages/Featured"
 import Earn from "./components/pages/Earn"
@@ -21,9 +20,6 @@ function App() {
           <Route path='/contact' element={ <Contact /> } />
         </Routes>
       </Container>
-      <Hero />
-      <Featured />
-      <Earn />
       <Footer />
   </Router>
   );

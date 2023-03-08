@@ -19,7 +19,7 @@ const NavBar = () => {
                         <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <Link to='/featured'>Featured</Link>
+                        <Link to='featured' smooth={true}>Featured</Link>
                     </li>
                     <li>
                         <Link to='/earn'>Earn</Link>
@@ -32,7 +32,7 @@ const NavBar = () => {
                     <LinkButton to="#" text='Connect Wallet' />
                 </div>
                 <div className='burger' onClick={handleClick}>
-                    {open ? (<FaTimes />) : <FaBars /> }
+                    {open ? <FaTimes /> : <FaBars /> }
                 </div>
                 <div className={open ? 'closemenu' : 'closemenu desactived'} onClick={handleClick}/>
             </Container>
