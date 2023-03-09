@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fk-invest/static/css/main.71c4214d.css",
-    "main.js": "/fk-invest/static/js/main.699c461f.js",
+    "main.css": "/fk-invest/static/css/main.c27c682c.css",
+    "main.js": "/fk-invest/static/js/main.648cb6c1.js",
     "static/media/trade.png": "/fk-invest/static/media/trade.a2c09083fbde76e9cac2.png",
     "static/media/hero-img.png": "/fk-invest/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
     "index.html": "/fk-invest/index.html",
-    "main.71c4214d.css.map": "/fk-invest/static/css/main.71c4214d.css.map",
-    "main.699c461f.js.map": "/fk-invest/static/js/main.699c461f.js.map"
+    "main.c27c682c.css.map": "/fk-invest/static/css/main.c27c682c.css.map",
+    "main.648cb6c1.js.map": "/fk-invest/static/js/main.648cb6c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.71c4214d.css",
-    "static/js/main.699c461f.js"
+    "static/css/main.c27c682c.css",
+    "static/js/main.648cb6c1.js"
   ]
 }
