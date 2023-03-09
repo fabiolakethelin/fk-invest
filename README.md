@@ -1,1 +1,1 @@
-fk-invest.vercel.app
+https://fk-invest.vercel.app/
