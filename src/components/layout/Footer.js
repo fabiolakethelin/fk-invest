@@ -5,11 +5,11 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="footer-container">
-            <h1><span>FK</span>Invest</h1>
+            <h1><span>FK</span> Invest</h1>
             <div className="menu">
                 <h5>Support</h5>
                 <span className="bar"></span>
-                    <a href="/">Contact Us</a>
+                    <a href="/contact">Contact Us</a>
                     <a href="/">Chat</a>
                     <a href="/">Help Center</a>
                     <a href="/">FAQ</a>
@@ -23,7 +23,7 @@ const Footer = () => {
                     <a href="/">API</a>
             </div>
             <div className="menu">
-                <h5>company</h5>
+                <h5>Company</h5>
                 <span className="bar"></span>
                     <a href="/">About</a>
                     <a href="/">Information</a>

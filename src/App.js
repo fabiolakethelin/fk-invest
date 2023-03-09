@@ -1,7 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import NavBar from "./components/layout/NavBar";
-import Container from "./components/layout/Container";
 import Home from "./components/pages/Home"
 import Featured from "./components/pages/Featured"
 import Earn from "./components/pages/Earn"
@@ -12,14 +11,14 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Container>
+      <div className="container">
         <Routes>
           <Route path='/' element={ <Home /> } />
           <Route path='/featured' element={ <Featured /> } />
           <Route path='/earn' element={ <Earn /> } />
           <Route path='/contact' element={ <Contact /> } />
         </Routes>
-      </Container>
+      </div>
       <Footer />
   </Router>
   );

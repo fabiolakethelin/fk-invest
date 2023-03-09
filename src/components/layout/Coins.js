@@ -1,4 +1,5 @@
 import { FiArrowUp, FiArrowDown } from 'react-icons/fi'
+import './Coins.css'
 
 const Coins = (props) => {
     return (
@@ -26,7 +27,7 @@ const Coins = (props) => {
                     )}
                 </div>
                 ))}
-            </>
+        </>
     )
 }
 

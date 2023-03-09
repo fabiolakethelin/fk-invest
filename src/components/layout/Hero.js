@@ -1,6 +1,6 @@
 import React from "react";
 import Input from "../form/Input";
-import LinkButton from "./LinkButton";
+import Button from "../form/Button";
 import Crypto from '../../assets/hero-img.png'
 import './Hero.css';
 
@@ -13,7 +13,7 @@ const Hero = () => {
                 <p>Buy, Sell, and store hundreds of cryptocurrencies</p>
                 <div className='input-container'>
                     <Input type='email' id='email' placeholder='Enter your email'/>
-                    <LinkButton to ='#' text='Learn More' />
+                    <Button type='button' text='Learn More' />
                 </div>
             </div>
 

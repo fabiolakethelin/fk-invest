@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
-import './Featured.css'
-import LinkButton from '../layout/LinkButton'
+import Button from "../form/Button";
 import Coins from "../layout/Coins"
+import './Featured.css'
 
 const Featured = () => {
 
@@ -29,9 +29,9 @@ const Featured = () => {
         <div className="featured">
             <div className="featured-container">
                 <div className="left">
-                    <h2>Explore top Crypto's Like Bitcoin, Ethereum, and Dogecoin</h2>
+                    <h2>Explore top Crypto's like Bitcoin, Ethereum, and Dogecoin</h2>
                     <p>See all available assets: Cryptocurrencies and NFT's</p>
-                    <LinkButton to="#" text="See More Coins" className='btn' />
+                    <Button type='button' text="See More Coins"/>
                 </div>
                 <div className="right">
                     <Coins data={data} />
