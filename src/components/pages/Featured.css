@@ -41,4 +41,8 @@
     .featured .left {
         text-align: center;
     }
+
+    .featured .left .btn {
+        align-self: center;
+    }
 }
