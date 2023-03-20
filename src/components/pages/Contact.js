@@ -54,7 +54,7 @@ const Contact = () => {
                     value={message}
                     required
                 />
-                <Button type="submit" text='Send'/>
+                <Button type="submit" text='Submit'/>
             </form>
         </div>
     )
